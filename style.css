@@ -1,0 +1,7 @@
+body{
+    background-image: url('https://media.cnn.com/api/v1/images/stellar/prod/150929101049-black-coffee-stock.jpg?q=x_3,y_1231,h_1684,w_2993,c_crop/h_720,w_1280'); /* Replace 'your-image.jpg' with the image file path */
+    background-size: cover; /* Scale and crop the image to cover the container */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    width: 100%; /* Set the width of the container */
+    height: 300px;
+}
