@@ -2,14 +2,20 @@ var x = 5;
 var z = 3;
 console.log(x + z);
 var name = prompt("Please enter your name:", "Abdullah");
-var gender = prompt("Please enter your gender:", "male");
+
+// if (gender === "male") {
+//     alert(`Welcome, Mr ${name}.`);
+//   } else if (gender === "female") {
+//     alert(`Welcome, Ms ${name}.`);
+//   } else {
+//     alert(`Welcome, ${name}`);
+//   }
+var gender
+yourGender();
 if (gender === "male") {
-    alert(`Welcome, Mr ${name}.`);
-  } else if (gender === "female") {
-    alert(`Welcome, Ms ${name}.`);
-  } else {
-    alert(`Welcome, ${name}`);
-  }
+  alert(`Welcome, Mr ${name}.`);
+} else alert(`Welcome, Ms ${name}.`);
+
 // Ask the user if they want a hot or cold drink
 const drinkType = prompt("Do you want a hot or cold drink?");
 
@@ -21,3 +27,14 @@ alert(`Your ${drinkType} ${drinkName} is getting prepared.`);
 
 // Print a statement on the console that shows the user's name and drink order
 console.log(`${name} ordered a ${drinkType} ${drinkName}.`);
+let array = [name , gender , drinkType , drinkName];
+for (let index = 0; index < array.length; index++) {
+  console.log( array[index]);
+  
+}
+function yourGender() {
+  while (gender  !== "male" && gender !== "female") {
+     gender = prompt("Please enter your gender: male or female", "male"); 
+  }
+  
+}
