@@ -12,32 +12,32 @@ var name = prompt("Please enter your name:", "Abdullah");
 //   }
 var gender
 yourGender();
-if (gender === "male") {
-  alert(`Welcome, Mr ${name}.`);
-} else alert(`Welcome, Ms ${name}.`);
+// if (gender === "male") {
+//   alert(`Welcome, Mr ${name}.`);
+// } else alert(`Welcome, Ms ${name}.`);
 
-// Ask the user if they want a hot or cold drink
-const drinkType = prompt("Do you want a hot or cold drink?");
+// // Ask the user if they want a hot or cold drink
+// const drinkType = prompt("Do you want a hot or cold drink?");
 
-// Ask the user for the name of their drink
-const drinkName = prompt("Enter the name of your drink:");
+// // Ask the user for the name of their drink
+// const drinkName = prompt("Enter the name of your drink:");
 
-// Alert the user that their drink is getting prepared
-alert(`Your ${drinkType} ${drinkName} is getting prepared.`);
+// // Alert the user that their drink is getting prepared
+// alert(`Your ${drinkType} ${drinkName} is getting prepared.`);
 
-// Print a statement on the console that shows the user's name and drink order
-console.log(`${name} ordered a ${drinkType} ${drinkName}.`);
-let array = [name , gender , drinkType , drinkName];
-for (let index = 0; index < array.length; index++) {
-  console.log( array[index]);
+// // Print a statement on the console that shows the user's name and drink order
+// console.log(`${name} ordered a ${drinkType} ${drinkName}.`);
+// let array = [name , gender , drinkType , drinkName];
+// for (let index = 0; index < array.length; index++) {
+//   console.log( array[index]);
 
-}
-function yourGender() {
-  while (gender  !== "male" && gender !== "female") {
-     gender = prompt("Please enter your gender: male or female", "male");
-  }
-  // eeeee
-}
+// }
+// function yourGender() {
+//   while (gender  !== "male" && gender !== "female") {
+//      gender = prompt("Please enter your gender: male or female", "male");
+//   }
+//   // eeeee
+// }
 let div_1 = document.createElement("div");
 
 document.getElementById("myDIV").appendChild(div_1);
