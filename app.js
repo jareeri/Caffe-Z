@@ -1,6 +1,4 @@
-var x = 5;
-var z = 3;
-console.log(x + z);
+
 // var name = prompt("Please enter your name:", "Abdullah");
 
 // if (gender === "male") {
