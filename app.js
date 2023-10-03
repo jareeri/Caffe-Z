@@ -1,7 +1,7 @@
 var x = 5;
 var z = 3;
 console.log(x + z);
-var name = prompt("Please enter your name:", "Abdullah");
+// var name = prompt("Please enter your name:", "Abdullah");
 
 // if (gender === "male") {
 //     alert(`Welcome, Mr ${name}.`);
@@ -10,8 +10,8 @@ var name = prompt("Please enter your name:", "Abdullah");
 //   } else {
 //     alert(`Welcome, ${name}`);
 //   }
-var gender
-yourGender();
+// var gender
+// yourGender();
 // if (gender === "male") {
 //   alert(`Welcome, Mr ${name}.`);
 // } else alert(`Welcome, Ms ${name}.`);
@@ -97,5 +97,6 @@ form.addEventListener("submit", function (event) {
   li_2.textContent= ` age : ${age}`;
   li_3.textContent=`order : ${checkboxValue} ${your_order}`;
 });
+
 
 
